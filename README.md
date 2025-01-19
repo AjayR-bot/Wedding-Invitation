@@ -26,13 +26,13 @@ inviting you and your family to elder sister's wedding to be held on **29th Nove
 
 ```js
 
-const newCouple = 'Sonali & Gagan';
+const newCouple = 'Ajay & Nikita';
 
-// Nov 29, 2020
-const weddingDate = new Date(2020, 11, 29);
+// May 25, 2025
+const weddingDate = new Date(2025, 05, 25);
 
-// Wedding venue: https://goo.gl/maps/5z5xX2hTYzU8VGEJ9
-const weddingVenue = new Location('Ashirwad Garden, Ranchi');
+// Wedding venue: https://g.co/kgs/7uHfu7h
+const weddingVenue = new Location('Kalyani Thirumana Mandapam, Valasaravakkam');
 
 (function() {
     newCouple.willTieKnot(weddingDate);
